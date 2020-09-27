@@ -38,8 +38,8 @@ module.exports = {
             }
         ),
         new CopyWebpackPlugin({
-            patterns: [{from:'./src/styles/styles.css',
-            to:''}]
+            patterns: [{from: './src/styles/styles.css',
+            to:''}],
         }),
 
         new MiniCssExtractPlugin()       
