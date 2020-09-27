@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 5px;
+    background-color: #212121;
+    color: black;
+    font-family: sans-serif;
+    align-items: center;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+    width: 90%;
+}
+
+.header .nav a {
+    font-size: 20px;
+    margin: auto auto auto 60px;
+}
+
+.header .nav a:hover{
+    color: #FFF;
+}
+
+.header .nav {
+    margin: auto -35px 10px auto;
+}
+
+.header h1 {
+    width: 100%;
+    margin: 20px auto auto 70px;
+}
+
+.header a {
+    color: #AAA;
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 20px auto auto auto;
+}
+
+.header .logotipo a {
+    font-size: 50px;
+    color: #b71c1c;
+}
+
+
+.home {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-decoration: none;
+    margin: 20px auto 20px auto;
+    width: 90%;
+}
+
+.home a {
+    padding: 5px;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+} 
+
+.home img {
+   color: black;
+   width: 250px; 
+   height: 350px;
+   border-radius: 20px;
+}
+
+.home h2 {
+    color: #AAA;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.Movies-view {
+    display: grid;
+    text-decoration: none;
+    margin: 20px auto 20px auto;
+    width: 90%;
+}
+
+.Movies-view img {
+    color: black;
+    width: 600px; 
+    height: 400px;
+    border-radius: 20px; 
+    max-width: 600px;
+    max-height: 400px;
+}
+
+.Movie-img-card {
+    box-sizing: content-box;
+    width: 0px; 
+    height: 0px;
+    margin-left: 45%;
+}
+
+
+.Movies-info {
+    display: grid;
+    text-decoration: none;
+    vertical-align: text-top;
+    width: 400px;
+    text-align: left;
+    white-space: normal;
+}
+
+.Movies-view .Movies-info h2 {
+    color: #FFF;
+    width: 90%;
+    display: grid;
+    font-size: 30px;
+    
+}
+
+.Movies-view h3 {
+    color: #FFF;
+    width: 90%;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.Movies-info span {
+    color: #FFF;
+    width: 110%;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Movie-actors {
+    width: 0px;
+    height: 0px;
+    text-align: center;
+}
+
+.Movie-actors h3 {
+    text-align: center;
+    margin: 40px auto auto 5px;
+}
+
+.Movie-actors p {
+    color: #FFF;
+    width: 90%;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    height: 300px;
+}
+
+
+
