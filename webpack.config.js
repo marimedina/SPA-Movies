@@ -39,7 +39,7 @@ module.exports = {
         ),
         new CopyWebpackPlugin({
             patterns: [{from:'./src/styles/styles.css',
-            to:""}]
+            to:''}]
         }),
 
         new MiniCssExtractPlugin()       
