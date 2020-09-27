@@ -16,6 +16,6 @@ deploy:
   github-token: $spa-movie-TD
   local-dir: dist/
   target-branch: gh-pages
-  commit_message: "Deploy Release"
+  commit_message: Deploy Release
   on: 
     branch: master
