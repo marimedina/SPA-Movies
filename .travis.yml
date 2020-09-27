@@ -1,34 +1,22 @@
-{
-language: "node_js",
-cache: {
-  directories: [
-    - "~/.npm"
-  ]
-},
-node_js: [
-  - "12"
-],
-git: {
+language: node_js
+cache: 
+  directories: 
+    - ~/.npm
+node_js: 
+  - '12'
+git: 
   depth: 3
-},
-script: [
-  - "yarn build"
-],
-deploy: [
-  {
-    provider: "pages",
+script: 
+  - yarn build
+deploy: 
+    provider: pages
     edge: true,
-    skip_cleanup: true,
-    keep_history: true,
-    token: "$spa-movie-TD",
-    local_dir: "dist/",
-    target_branch: "gh-pages",
+    skip-cleanup: true
+    keep-history: true
+    github-token: $spa-movie-TD
+    local-dir: dist/
+    target-branch: gh-pages
     commit_message: "Deploy Release",
-    on: {
-      branch: [
-        "master" 
-      ]
-    }
-  }
-]
-}
+    on: 
+      branch: master 
+      
