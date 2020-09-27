@@ -11,8 +11,8 @@ script:
 deploy:
   provider: pages
   edge: true,
-  skip-cleanup: true
-  keep-history: true
+  skip-cleanup: true,
+  keep-history: true,
   github-token: $spa-movie-TD
   local-dir: dist/
   target-branch: gh-pages
