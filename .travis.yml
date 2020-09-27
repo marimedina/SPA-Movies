@@ -1,21 +1,21 @@
-language: node_js
+language: "node_js"
 cache:
   directories:
-    - ~/.npm
+    - "~/.npm"
 node_js: 
-  - '12'
+  - "12"
 git:
   depth: 3
 script:
-  - yarn build
+  - "yarn build"
 deploy:
-  provider: pages
+  provider: "pages"
   edge: true,
   skip-cleanup: true,
   keep-history: true,
-  github-token: $spa-movie-TD
-  local-dir: dist/
-  target-branch: gh-pages
-  commit_message: Deploy Release
+  github-token: "$spa-movie-TD"
+  local-dir: "dist/"
+  target-branch: "gh-pages"
+  commit_message: "Deploy Release"
   on: 
-    branch: master
+    branch: "master"
